@@ -1,0 +1,26 @@
+1-put this folder in your download folder
+2-run start_app.exe as an admin (right click -> run as an admin)
+3-refresh if the browser does not display the app right away
+
+
+
+fpdf==1.7.2
+Flask==2.2.5
+requests==2.31.0
+gunicorn==23.0.0
+opencv-python==4.10.0.84
+
+
+import cv2
+import base64
+import glob
+import json
+import time
+import datetime
+from fpdf import FPDF
+import requests
+import os
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from flask import Flask, Response, render_template, jsonify, request, redirect, url_for, send_file
