@@ -72,9 +72,10 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
+pytransform/
+node_modules/
 .eggs/
 lib/
 lib64/
